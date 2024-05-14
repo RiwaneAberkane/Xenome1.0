@@ -1,3 +1,6 @@
+import "./Navbar.css"
+
+
 const Navbar = () => {
     return (
         <nav className="navbar">
@@ -6,10 +9,10 @@ const Navbar = () => {
             </div>
             <div className="nav-right">
                 <ul>
-                    <li>Accueil</li>
-                    <li>Articles</li>
-                    <li>Contact</li>
-                    <li>À propos</li>
+                    <li><a href="">Accueil</a></li>
+                    <li><a href="">Articles</a></li>
+                    <li><a href="">À propos</a></li>
+                    <li><a href="">Contact</a></li>
                 </ul>
             </div>
         </nav>
