@@ -1,4 +1,3 @@
-// Navbar.js
 import React, { useState } from "react";
 import { Spin as Hamburger } from 'hamburger-react';
 import "./Navbar.css";
@@ -11,7 +10,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="navbar">
+        <nav className={`navbar ${isMenuOpen ? "navbar--open" : ""}`}>
             <div className="nav-left">
                 <h1>XENOME</h1>
             </div>
@@ -26,7 +25,7 @@ const Navbar = () => {
             </div>
 
             <div className="header__main-ham-menu-cont" onClick={toggleMenu}>
-                <Hamburger toggled={isMenuOpen} color="black" />
+                <Hamburger toggled={isMenuOpen} toggle={setIsMenuOpen} color="black" />
             </div>
         </nav>
     );
