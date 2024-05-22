@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "make": "Toyota",
+        "model": "Corolla",
+        "year": 2021,
+        "price": 20000,
+        "arrivalDate": "2023-01-15",
+        "photo": "../images/toyota.jpg"
+    },
+    {
+        "id": 2,
+        "make": "Honda",
+        "model": "Civic",
+        "year": 2022,
+        "price": 22000,
+        "arrivalDate": "2023-02-10",
+        "photo": "../images/toyota.jpg"
+    },
+    {
+        "id": 3,
+        "make": "Ford",
+        "model": "Focus",
+        "year": 2023,
+        "price": 25000,
+        "arrivalDate": "2023-03-05",
+        "photo": "../images/toyota.jpg"
+    },
+    {
+        "id": 4,
+        "make": "Chevrolet",
+        "model": "Malibu",
+        "year": 2020,
+        "price": 18000,
+        "arrivalDate": "2023-04-20",
+        "photo": "../images/toyota.jpg"
+    },
+    {
+        "id": 5,
+        "make": "Nissan",
+        "model": "Altima",
+        "year": 2021,
+        "price": 21000,
+        "arrivalDate": "2023-05-15",
+        "photo": "../images/toyota.jpg"
+    },
+    {
+        "id": 6,
+        "make": "BMW",
+        "model": "3 Series",
+        "year": 2022,
+        "price": 35000,
+        "arrivalDate": "2023-06-01",
+        "photo": "../images/toyota.jpg"
+    },
+    {
+        "id": 7,
+        "make": "Audi",
+        "model": "A4",
+        "year": 2023,
+        "price": 40000,
+        "arrivalDate": "2023-07-10",
+        "photo": "../images/toyota.jpg"
+    },
+    {
+        "id": 8,
+        "make": "Mercedes-Benz",
+        "model": "C-Class",
+        "year": 2022,
+        "price": 42000,
+        "arrivalDate": "2023-08-25",
+        "photo": "../images/toyota.jpg"
+    },
+    {
+        "id": 9,
+        "make": "Volkswagen",
+        "model": "Passat",
+        "year": 2021,
+        "price": 23000,
+        "arrivalDate": "2023-09-15",
+        "photo": "../images/toyota.jpg"
+    },
+    {
+        "id": 10,
+        "make": "Hyundai",
+        "model": "Elantra",
+        "year": 2020,
+        "price": 19000,
+        "arrivalDate": "2023-10-05",
+        "photo": "../images/toyota.jpg"
+    }
+]

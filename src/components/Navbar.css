@@ -14,9 +14,8 @@ h1 {
     font-size: 2rem;
 }
 
-ul {
+.nav-right ul {
     display: flex;
-    gap: 2.5rem;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -26,7 +25,7 @@ a {
     text-decoration: none;
     color: black;
     text-transform: uppercase;
-    width: 100%; 
+    width: 100%;
     font-weight: bold;
 }
 
@@ -42,7 +41,7 @@ a {
 /* --------------------------------------------------------------------- */
 
 @media only screen and (max-width: 55em) {
-    
+
     .header__main-ham-menu-cont {
         display: block;
     }
@@ -62,20 +61,21 @@ a {
     }
 
     .header_link.header_link--open {
-        max-height: 500px; 
+        max-height: 500px;
     }
 
-    ul{
+    ul {
         gap: 0;
     }
 
-    li {
+    .nav-right li {
         border-top: 1px solid rgb(175, 175, 175);
         width: 100%;
-        padding: 2rem 0; 
+        padding: 1.5rem 0;
     }
 
     a {
         padding: 0rem 3rem;
+        font-size: 0.8rem;
     }
 }
